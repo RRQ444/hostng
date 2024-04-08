@@ -1,0 +1,1690 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>3</title>
+		<link rel="stylesheet" href="styles.css" />
+		<script src="https://kit.fontawesome.com/8e3623263f.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+	
+	</head>
+
+	<body>
+		<header>
+			<div class="logo">
+				<img src="Imagenes/Logo3.png" >
+			</div>
+	        <nav class="nav">
+				<div class="nav_conteiner">
+						<a href="#menu" class="nav_menu">
+							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="nav_icon">
+								<path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+							</svg>
+						</a>
+						<a href="#" class="nav_menu nav_menu--second">
+							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="nav_icon">
+								<path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+							</svg>
+						</a>
+						<ul class="dropdown" id="menu">
+							<li class="dropdown_list">
+								<a href="#" class="dropdown_link">
+									<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="dropdown_icon">
+										<path stroke-linecap="round" stroke-linejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+									</svg>
+									<span class="dropdown_span">Inicio</span>  
+								</a>
+							</li>
+	
+							<li class="dropdown_list">
+								<a href="" class="dropdown_link">
+									<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="dropdown_icon">
+										<path stroke-linecap="round" stroke-linejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 0 0 6 3.75v16.5a2.25 2.25 0 0 0 2.25 2.25h7.5A2.25 2.25 0 0 0 18 20.25V3.75a2.25 2.25 0 0 0-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
+									  </svg>
+									  
+									<span class="dropdown_span">Marcas</span>
+									<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="dropdown_arrow">
+										<path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+									  </svg>
+									  
+									<input type="checkbox" class="dropdown_check">  
+								</a>
+								<div class="dropdown_content">
+	
+									<ul class="dropdown_sub">
+										<li class="dropdown_li">
+											<a href="#sectionMoto" class="dropdown_anchor">Motorola</a>
+										</li>
+										<li class="dropdown_li">
+											<a href="#sectionHuawei" class="dropdown_anchor">Huawei</a>
+										</li> 
+										<li class="dropdown_li">
+											<a href="#sectionOppo" class="dropdown_anchor">Oppo</a>
+										</li> 
+										<li class="dropdown_li">
+											<a href="#sectionRealme" class="dropdown_anchor">Realme</a>
+										</li> 
+										<li class="dropdown_li">
+											<a href="#sectionSamsung" class="dropdown_anchor">Samsung</a>
+										</li> 
+										<li class="dropdown_li">
+											<a href="#sectionXiaomi" class="dropdown_anchor">Xiaomi</a>
+										</li>
+										<li class="dropdown_li">
+											<a href="#sectionApple" class="dropdown_anchor">Apple</a>
+										</li>
+										<li class="dropdown_li">
+											<a href="#sectionHonor" class="dropdown_anchor">Honor</a>
+										</li>    
+		
+									</ul>
+								</div>
+							</li>
+							<li class="dropdown_list">
+								<a href="#texto" class="dropdown_link">
+									<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="dropdown_icon">
+										<path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z" />
+									  </svg>
+									  
+									<span class="dropdown_span">Más Vendidos</span>  
+								</a>
+							</li>
+							<li class="dropdown_list">
+								<a href="#Footer" class="dropdown_link">
+									<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="dropdown_icon">
+										<path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
+									  </svg>
+									  
+									<span class="dropdown_span">Informacion</span>  
+								</a>
+							</li>
+						</ul>
+				</div>
+			</nav>
+
+			<div class="buscador">
+				<input type="text" id="Bbuscador" placeholder="Ingresa tu busqueda...">
+				<!--<button class="lupa">
+					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-lupa">
+					<path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+				  </svg>
+				</button>-->
+			</div>
+	
+			<div class="Usuario">
+				<button class="btnn">
+				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-user">
+					<path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+				  </svg>
+				</button>
+				
+			</div>
+
+			<div class="container-icon">
+				<div class="container-cart-icon">
+					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-cart">
+						<path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+					  </svg>
+					<div class="count-products">
+						<span id="contador-productos">0</span>
+					</div>
+				</div>
+
+				<div class="container-cart-products hidden-cart">
+					<div class="row-product hidden">
+						<div class="cart-product">
+							<div class="info-cart-product">
+								<span class="cantidad-producto-carrito">1</span>
+								<p class="titulo-producto-carrito">Zapatos Nike</p>
+								<span class="precio-producto-carrito">$80</span>
+							</div>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								fill="none"
+								viewBox="0 0 24 24"
+								stroke-width="1.5"
+								stroke="currentColor"
+								class="icon-close"
+							>
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									d="M6 18L18 6M6 6l12 12"
+								/>
+							</svg>
+						</div>
+					</div>
+
+					<div class="cart-total hidden">
+						<h3>Total:</h3>
+						<span class="total-pagar">$200</span>
+						<button class="Pagar">Pagar</button>
+						
+						
+					</div>
+					<p class="cart-empty">El carrito está vacío</p>
+				</div>
+			</div>
+		</header>
+		
+		<section id="login">
+			<div class="fondo">
+				<span class="icono-cerrar"><i class="fa-solid fa-x"></i></span>
+				<div class="contenedor-form login">
+					<h2>Iniciar Sesión</h2>
+					<form action="#">
+					<div class="contenedor-input">
+						<span class="icono"> <i class="fa-solid fa-envelope"></i></span>
+						<input type="email" required="" >
+						<label for="#">Email</label>
+					</div>
+		
+					<div class="contenedor-input">
+						<span class="icono"> <i class="fa-solid fa-lock"></i></span>
+						<input type="password" required="">
+						<label for="#">Contraseña</label>
+					</div>
+		
+					<div class="recordar">
+			
+						<a href="#">¿Olvide la Contraseña?</a>
+						
+					</div>
+		
+					<button type="submit" class="btn">Iniciar Sesión</button>
+					</form>
+		
+					<div class="registrar">
+						<p>¿No tienes cuesta? <a href="#" class="registar-link">Registrarse</a></p>
+					</div>
+				
+				</div>
+				<div class="contenedor-form registrar">
+					<h2>Registrarse</h2>
+					<form action="#">
+		
+						<div class="contenedor-input">
+							<span class="icono"><i class="fa-solid fa-user"></i></span>
+							<input type="text" required>
+							<label for="#">Nombre de Usuario</label>
+						</div>
+		
+						<div class="contenedor-input">
+							<span class="icono"> <i class="fa-solid fa-envelope"></i></span>
+							<input type="email" required>
+							<label for="#">Email</label>
+						</div>
+			
+						<div class="contenedor-input">
+							<span class="icono"> <i class="fa-solid fa-lock"></i></span>
+							<input type="password" required>
+							<label for="#">Contraseña</label>
+						</div>
+		
+		
+						<button type="submit" class="btn">Registrarme</button>
+						<div class="registrar">
+							<p>¿Tienes una cuenta? <a href="#" class="login-link">Iniciar Sesión</a></p>
+						</div>
+					</form>
+		
+				</div>
+			</div>
+		</section>
+
+	    <div class="publicidad">
+			<div class="imagen1">
+				<img src="ImagenesCe/1.png" alt="C1" width="65%" class="efecto1">
+			</div>
+			<div class="eslogan">
+				<p>Tenemos el Smartphone<br>Perfecto Para Cada<br>Persona</p>
+			</div>
+			<div class="imagen2">
+				<img src="ImagenesCe/2.png" alt="C1" width="60%" class="efecto2">
+			</div>
+    	</div>
+	
+		<div  class="Texto">
+			<p>Descubre<br> <h1>Nuestros Productos</h1></p> 
+		</div>
+	
+		<section id="sectionNP">
+			<div class="swiper mySwiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="item">
+							<figure>
+								<img src="ImagenesTele/Realme/6.8i/1.png" alt="producto">
+							</figure>
+							<div class="info-producto">
+								<h2>Realme 8i</h2>
+								<p class="precie">$4999.00</p>
+								
+								<button class="btn-add-cart">Añadir al carrito</button>
+							</div>
+						</div>
+					</div>    
+					<div class="swiper-slide">
+						<div class="item">
+							<figure>
+								<img src="ImagenesTele/Apple/6.Phone 14 Plus/1.jpeg" alt="producto">
+							</figure>
+							<div class="info-producto">
+								<h2>¡Phone 14 Plus</h2>
+								<p class="precie">$19499.00</p>
+								<button class="btn-add-cart">Añadir al carrito</button>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="item">
+							<figure>
+								<img src="ImagenesTele/Motorola/9.Motorola Edge 20/1.png" alt="producto">
+							</figure>
+							<div class="info-producto">
+								<h2>Motorola Edge 20</h2>
+								<p class="precie">$5999.00</p>
+								<button class="btn-add-cart">Añadir al carrito</button>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="item">
+							<figure>
+								<img src="ImagenesTele/Samsung/1.Galaxy S24/1.png" alt="producto">
+							</figure>
+							<div class="info-producto">
+								<h2>Galaxy S24</h2>
+								<p class="precie">$20999.00</p>
+								<button class="btn-add-cart">Añadir al carrito</button>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="item">
+							<figure>
+								<img src="ImagenesTele/Huawei/5.P60 pro/1.png" alt="producto">
+							</figure>
+							<div class="info-producto">
+								<h2>P60 Pro</h2>
+								<p class="precie">$17999.00</p>
+								<button class="btn-add-cart">Añadir al carrito</button>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="item">
+							<figure>
+								<img src="ImagenesTele/Xiaomi/6.Poco X3 Pro/1.png" alt="producto">
+							</figure>
+							<div class="info-producto">
+								<h2>Poco X3 Pro</h2>
+								<p class="precie">$5800.00</p>
+								<button class="btn-add-cart">Añadir al carrito</button>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="item">
+							<figure>
+								<img src="ImagenesTele/Xiaomi/2.Mi 10T/2.png" alt="producto">
+							</figure>
+							<div class="info-producto">
+								<h2>Ralme 7 5G</h2>
+								<p class="precie">$5999.00</p>
+								<button class="btn-add-cart">Añadir al carrito</button>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="item">
+							<figure>
+								<img src="ImagenesTele/Motorola/3.Moto G30/2.png" alt="producto">
+							</figure>
+							<div class="info-producto">
+								<h2>Moto G30</h2>
+								<p class="precie">$6500.00</p>
+								<button class="btn-add-cart">Añadir al carrito</button>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="item">
+							<figure>
+								<img src="ImagenesTele/Huawei/4.Mate 40 Pro/1.png" alt="producto">
+							</figure>
+							<div class="info-producto">
+								<h2>Mate 40 Pro</h2>
+								<p class="precie">$6300.00</p>
+								<button class="btn-add-cart">Añadir al carrito</button>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="item">
+							<figure>
+								<img src="ImagenesTele/Honor/4.50 5G/1.png" alt="producto">
+							</figure>
+							<div class="info-producto">
+								<h2>50 5G</h2>
+								<p class="precie">$5499.00</p>
+								<button class="btn-add-cart">Añadir al carrito</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+		</section>
+	
+		<section id="sectionMoto">
+			<div class="NombreMarca">
+				<u> Motorola</u>
+			</div>   
+			<div class="swiper mySwiper2">
+				<div class="swiper-wrapper">
+				
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Motorola/1.Motorola One Fusion/2.png" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2> Motorola One Fusion</h2>
+							<p class="precie">$5000.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Motorola/2.Motorola One Macro/2.png" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2> Motorola One Macro</h2>
+							<p class="precie">$2799.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Motorola/3.Moto G30/3.png" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2> Motorola G30</h2>
+							<p class="precie">$2499.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Motorola/4.Motorola Moto E13/1.png" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2> Moto E13</h2>
+							<p class="precie">$1999.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Motorola/5.Motorola Edge 30/1.png" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2> Motorola Edge 30</h2>
+							<p class="precie">$4699.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Motorola/6.Motorola Moto G23/1.png" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>Moto G23</h2>
+							<p class="precie">$1899.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Motorola/7.Motorola Moto G22/1.png" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>Moto G22</h2>
+							<p class="precie">$2200.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Motorola/8.Motorola Moto E22/1.png" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>Moto E22</h2>
+							<p class="precie">$2389.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Motorola/9.Motorola Edge 20/1.png" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>Motorola Edge 20</h2>
+							<p class="precie">$5999.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Motorola/10.Motorola Moto G34 5G/1.png" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>Moto G34 5G</h2>
+							<p class="precie">$4999.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				</div>
+				<div class="swiper-button-next"></div>
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-pagination"></div>
+			</div>
+		</section>
+	
+		<section id="sectionHuawei">
+			<div class="NombreMarca">
+				<u> Huawei</u>
+			</div>   
+			<div class="swiper mySwiper2">
+				<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Huawei/1.Nova 8i/2.png" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2> Nova 8i</h2>
+							<p class="precie">$4559.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Huawei/2.Nova Y60/1.png" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>Nova Y60</h2>
+							<p class="precie">$6499.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Huawei/3.Nova 9/2.png" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>Nova 9</h2>
+							<p class="precie">$5600.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Huawei/4.Mate 40 Pro/2.png" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>Mate 40 Pro</h2>
+							<p class="precie">$89999.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Huawei/5.P60 pro/1.png" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>P60 Pro</h2>
+							<p class="precie">$17999.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Huawei/6.P50 pro/1.png" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>P50 Pro</h2>
+							<p class="precie">$15999.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Huawei/7.Nova 11/1.jpg" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>Nova 11</h2>
+							<p class="precie">$7699.00</p>
+							<button class="btn-add-cart" >Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Huawei/8. Y7 A 64/1.png" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>Y7a</h2>
+							<p class="precie">$3999.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>  
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Huawei/9.Nova 10 SE/1.png" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>Nova 10 SE</h2>
+							<p class="precie">$4799.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div> 
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Huawei/10. Nova 10 pro/1.png" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>Nova 10 Pro</h2>
+							<p class="precie">$10999.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				</div>
+				<div class="swiper-button-next"></div>
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-pagination"></div>
+			</div>
+		</section>
+
+		<section id="sectionOppo">
+			<div class="NombreMarca">
+				<u>Oppo</u>
+			</div>   
+			<div class="swiper mySwiper2">
+				<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Oppo/1.Oppo A9/2.png" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>Oppo A9</h2>
+							<p class="precie">$6859.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Oppo/2.Oppo F17 Pro/1.png" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>Oppo F17 Pro</h2>
+							<p class="precie">$5400.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Oppo/3.Oppo Reno6 5G/3.png" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>Reno6 5G</h2>
+							<p class="precie">$9989.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Oppo/4.Oppo Find X2 Neo/1.png" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>Find X2 Neo</h2>
+							<p class="precie">$7699.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Oppo/5.Oppo Reno7 5G/1.png" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>Reno7 5G</h2>
+							<p class="precie">$12509.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Oppo/6. Reno 11 5G/1.png" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>Reno11 5G</h2>
+							<p class="precie">$9999.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Oppo/7.Reno 6 5G/1.png" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>Reno6 5G</h2>
+							<p class="precie">$9989.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Oppo/8.Oppo A15/1.png" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>Oppo A15</h2>
+							<p class="precie">$3799.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Oppo/9.Oppo A57/1.png" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>Oppo A57</h2>
+							<p class="precie">$4499.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Oppo/10.Reno 10/1.png" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>Reno11</h2>
+							<p class="precie">$8999.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				</div>
+				<div class="swiper-button-next"></div>
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-pagination"></div>
+			</div>
+		</section>
+
+		<div  class="Texto" id="texto">
+			<p>Más<br> <h1>Vendidos</h1></p> 
+		</div>
+	
+		<section id="sectionMV">
+			<div class="swiper mySwiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="item">
+							<figure>
+								<img src="ImagenesTele/Motorola/4.Motorola Moto E13/1.png" alt="producto">
+							</figure>
+							<div class="info-producto">
+								<h2> Moto E13</h2>
+								<p class="precie">$1999.00</p>
+								<button class="btn-add-cart">Añadir al carrito</button>
+							</div>
+						</div>
+					</div>    
+					<div class="swiper-slide">
+						<div class="item">
+							<figure>
+								<img src="ImagenesTele/Realme/10.Note 50/1.jpeg" alt="producto">
+							</figure>
+							<div class="info-producto">
+								<h2> Realme Note 50</h2>
+								<p class="precie">$2999.00</p>
+								<button class="btn-add-cart">Añadir al carrito</button>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="item">
+							<figure>
+								<img src="ImagenesTele/Realme/4. Note 50/1.jpeg" alt="producto">
+							</figure>
+							<div class="info-producto">
+								<h2>Note 50</h2>
+								<p class="precie">$2999.00</p>
+								<button class="btn-add-cart">Añadir al carrito</button>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="item">
+							<figure>
+								<img src="ImagenesTele/Honor/2.X6s/1.jpeg "alt="producto">
+							</figure>
+							<div class="info-producto">
+								<h2>X6s</h2>
+								<p class="precie">$2999.00</p>
+								<button class="btn-add-cart">Añadir al carrito</button>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="item">
+							<figure>
+								<img src="ImagenesTele/Realme/2.Realme 9/1.jpg" alt="producto">
+							</figure>
+							<div class="info-producto">
+								<h2>Realme 9 </h2>
+								<p class="precie">$3459.00</p>
+								<button class="btn-add-cart">Añadir al carrito</button>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="item">
+							<figure>
+								<img src="ImagenesTele/Motorola/8.Motorola Moto E22/1.png" alt="producto">
+							</figure>
+							<div class="info-producto">
+								<h2>Moto E22</h2>
+								<p class="precie">$2389.00</p>
+								<button class="btn-add-cart">Añadir al carrito</button>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="item">
+							<figure>
+								<img src="ImagenesTele/Oppo/9.Oppo A57/1.png" alt="producto">
+							</figure>
+							<div class="info-producto">
+								<h2>Oppo A57</h2>
+								<p class="precie">$4499.00</p>
+								<button class="btn-add-cart">Añadir al carrito</button>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="item">
+							<figure>
+								<img src="ImagenesTele/Realme/3.C35/1.jpg" alt="producto">
+							</figure>
+							<div class="info-producto">
+								<h2>Realme C35</h2>
+								<p class="precie">$3829.00</p>
+								<button class="btn-add-cart">Añadir al carrito</button>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="item">
+							<figure>
+								<img src="ImagenesTele/Xiaomi/5.Redmi 10/1.png" alt="producto">
+							</figure>
+							<div class="info-producto">
+								<h2>Redmi 10</h2>
+								<p class="precie">$2299.00</p>
+								<button class="btn-add-cart">Añadir al carrito</button>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="item">
+							<figure>
+								<img src="ImagenesTele/Apple/1.Phone 11/1.png" alt="producto">
+							</figure>
+							<div class="info-producto">
+								<h2>¡Phone 11</h2>
+								<p class="precie">$7999.00</p>
+								<button class="btn-add-cart">Añadir al carrito</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+		</section>
+		
+		<section id="sectionRealme">
+			<div class="NombreMarca">
+				<u>Realme</u>
+			</div>   
+			<div class="swiper mySwiper2">
+				<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Realme/6.8i/1.png" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>Realme 8i</h2>
+							<p class="precie">$4999.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Realme/3.C35/1.jpg" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>Realme C35</h2>
+							<p class="precie">$3829.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Realme/1.C31/1.jpg" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>Realme C31</h2>
+							<p class="precie">$3999.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Realme/4. Note 50/1.jpeg" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>Note 50</h2>
+							<p class="precie">$2999.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Realme/5. C11/1.jpeg" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>Realme C11</h2>
+							<p class="precie">$1999.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Realme/2.Realme 9/1.jpg" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>Realme 9 </h2>
+							<p class="precie">$3459.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Realme/7.8 Pro/1.png" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>Realme 8 Pro</h2>
+							<p class="precie">$4999.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Realme/8. C55/1.png" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>Realme C55</h2>
+							<p class="precie">$5499.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Realme/9.C53/2.jpeg" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>Realme C53</h2>
+							<p class="precie">$5499.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Realme/10.Note 50/1.jpeg" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2> Realme Note 50</h2>
+							<p class="precie">$2999.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				</div>
+				<div class="swiper-button-next"></div>
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-pagination"></div>
+			</div>
+		</section>
+
+		<section id="sectionSamsung">
+			<div class="NombreMarca">
+				<u>Samsung</u>
+			</div>   
+			<div class="swiper mySwiper2">
+				<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Samsung/1.Galaxy S24/1.png" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>Galaxy S24</h2>
+							<p class="precie">$20999.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Samsung/2.Galaxy S23 Ultra/1.jpeg" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>Galaxy S23 Ultra</h2>
+							<p class="precie">$27999.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Samsung/3.Galaxy A54 5G/1.jpeg" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>Galaxy A54 5G</h2>
+							<p class="precie">$7499.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Samsung/4.Galaxy A52/2.png" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>Galaxy A52</h2>
+							<p class="precie">$5600.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Samsung/5.Galaxy S21 FE/1.jpeg" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>Galaxy S21 FE</h2>
+							<p class="precie">$10499.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Samsung/6.Galaxy S22/1.png" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>Galaxy S22</h2>
+							<p class="precie">$14499.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Samsung/7.Galaxy S20 FE 5G/1.png" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>Galaxy S20 FE 5G</h2>
+							<p class="precie">$7999.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Samsung/8.Galaxy A04/1.jpeg" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>Galaxy A04</h2>
+							<p class="precie">$1799.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Samsung/9.Galaxy A53 5G/1.jpeg" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>Galaxy A53 5G</h2>
+							<p class="precie">$10999.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Samsung/10.Galaxy A04E/1.jpeg" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>Galaxy A04E</h2>
+							<p class="precie">$1899.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				</div>
+				<div class="swiper-button-next"></div>
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-pagination"></div>
+			</div>
+		</section>
+
+		<section id="sectionXiaomi">
+			<div class="NombreMarca">
+				<u>Xiaomi</u>
+			</div>   
+			<div class="swiper mySwiper2">
+				<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Xiaomi/1.Mi 11 Lite 5G/1.png" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>Mi 11 Lite 5G</h2>
+							<p class="precie">$6700.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Xiaomi/3.Mi 11/3.png" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>Mi 11</h2>
+							<p class="precie">$6300.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+	
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Xiaomi/2.Mi 10T/1.png" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>Mi 10T</h2>
+							<p class="precie">$12999.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Xiaomi/4.Redmi 9/1.png" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>Redmi 9</h2>
+							<p class="precie">$3799.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Xiaomi/5.Redmi 10/1.png" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>Redmi 10</h2>
+							<p class="precie">$2299.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Xiaomi/6.Poco X3 Pro/1.png" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>Poco X3 Pro</h2>
+							<p class="precie">$4999.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Xiaomi/7.Note 13 Pro/1.jpeg" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>Note 13 Pro</h2>
+							<p class="precie">$7499.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Xiaomi/8.12 Pro/1.png" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>12 Pro</h2>
+							<p class="precie">$14399.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Xiaomi/9.Redmi 10A/1.jpeg" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>Redmi 10A</h2>
+							<p class="precie">$1999.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Xiaomi/10.Note 12S/1.jpeg" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>Note 12S</h2>
+							<p class="precie">$6999.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				</div>
+				<div class="swiper-button-next"></div>
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-pagination"></div>
+			</div>
+		</section>
+
+		<section id="sectionApple">
+			<div class="NombreMarca">
+				<u>Apple</u>
+			</div>   
+			<div class="swiper mySwiper2">
+				<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Apple/1.Phone 11/1.png" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>¡Phone 11</h2>
+							<p class="precie">$7999.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Apple/2.Phone 13/1.png "alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>¡Phone 13</h2>
+							<p class="precie">$13999.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+	
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Apple/3.Phone 15 Pro Max/1.png" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>¡Phone 15 Pro Max</h2>
+							<p class="precie">$28999.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Apple/4.Phone 11 Pro Max/1.png" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>¡Phone 11 Pro Max</h2>
+							<p class="precie">$27499.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Apple/5.Phone 13 Pro Max/1.png" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>¡Phone 13 Pro Max</h2>
+							<p class="precie">$28999.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Apple/6.Phone 14 Plus/1.jpeg" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>¡Phone 14 Plus</h2>
+							<p class="precie">$19499.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Apple/7.Phone 12/1.png" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>¡Phone 12</h2>
+							<p class="precie">$10499.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Apple/8.Phone 11 Pro/1.png" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>¡Phone 11 Pro</h2>
+							<p class="precie">$254999.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Apple/9.Phone 14/1.jpeg" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>¡Phone 14</h2>
+							<p class="precie">$23499.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Apple/10.Phone 12 Pro/1.png" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>¡Phone 12 Pro</h2>
+							<p class="precie">$30999.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				</div>
+				<div class="swiper-button-next"></div>
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-pagination"></div>
+			</div>
+		</section>
+
+		<section id="sectionHonor">
+			<div class="NombreMarca">
+				<u>Honor</u>
+			</div>   
+			<div class="swiper mySwiper2">
+				<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Honor/1.Magic6 Lite 5G/1.jpeg" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>Magic6 Lite 5G</h2>
+							<p class="precie">$9999.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Honor/2.X6s/1.jpeg "alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>X6s</h2>
+							<p class="precie">$2999.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Honor/3.X6/1.jpeg" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>X6</h2>
+							<p class="precie">$2599.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Honor/4.50 5G/1.png" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>50 5G</h2>
+							<p class="precie">$5499.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Honor/5.X7a/1.jpeg" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>X7a</h2>
+							<p class="precie">$3999.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Honor/6.Magic5 Pro/1.png" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>Magic5 Pro</h2>
+							<p class="precie">$23999.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Honor/7.90/1.jpeg "alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>90</h2>
+							<p class="precie">$11999.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Honor/8.70/1.png" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>70</h2>
+							<p class="precie">$10999.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Honor/9.X8/1.png" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>X8</h2>
+							<p class="precie">$3599.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item">
+						<figure>
+							<img src="ImagenesTele/Honor/10.90 Lite/1.jpeg" alt="producto">
+						</figure>
+						<div class="info-producto">
+							<h2>90 Lite</h2>
+							<p class="precie">$7999.00</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+				</div>
+				<div class="swiper-button-next"></div>
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-pagination"></div>
+			</div>
+		</section>
+
+		<section id="sectionMarcas">
+			<div class="swiper mySwiper1">
+			<div class="swiper-wrapper">
+			  <div class="swiper-slide">
+				<div class="logos">
+					<div class="Moto">
+						<a href="https://www.motorola.com.mx/?utm_source=google&utm_medium=cpc&utm_campaign=15981393112&utm_content=152226869955&utm_term=motorola&gad_source=1&gclid=Cj0KCQjwk6SwBhDPARIsAJ59GweE5rg6ggNVAzX9Iet0AJKLrEyhILjc3MsF7Anx3lhMOOEenBfbnwMaAuqfEALw_wcB">
+						<img src="Logos/Moto.png" alt=""></a>
+					</div>
+				</div>   
+			  </div>
+			  <div class="swiper-slide">
+					<div class="logos">
+						<div class="xiaomi">
+							<a href="https://www.mi.com/mx/store?utm_campaign=micom_mx_mx_search_brand_cvn&utm_channel=search&utm_source=google&utm_medium=paid-search&utm_type=1&utm_id=536&gad_source=1&gclid=Cj0KCQjwk6SwBhDPARIsAJ59GwdVRk_fXRwnku-uOUUzoBy6HRP-tAgYGgUxFvLCs9i4WzUQ7KcMShoaAlofEALw_wcB">
+								<img src="Logos/Xiaomi-Logo.png" alt=""></a>
+						</div>
+					</div>   
+			  </div>
+			  <div class="swiper-slide">
+					<div class="logos">
+						<div class="Apple">
+							<a href="https://www.apple.com/mx/store?afid=p238%7CsLHHgzTlu-dc_mtid_1870765e38482_pcrid_683617322810_pgrid_15377145411_pntwk_g_pchan__pexid__&cid=aos-mx-kwgo-brand--slid---product-">
+								<img src="Logos/Apple-Logo.png" alt=""></a>
+						</div>
+					</div>   
+			  </div>
+			  <div class="swiper-slide">
+					<div class="logos">
+						<div class="oppo">
+							<a href="https://www.oppo.com/mx/">
+								<img src="Logos/Oppo-logo.png" alt=""></a>
+						</div>
+					</div>   
+			  </div>
+			  <div class="swiper-slide">
+					<div class="logos">
+						<div class="huawei">
+							<a href="https://consumer.huawei.com/mx/offer/?gad_source=1&gclid=Cj0KCQjwk6SwBhDPARIsAJ59GwfiHJmfbhLA5PKpz_XoAL40wxKVMcPg7WApQMr5TD_9JXqusF7fz2UaAobWEALw_wcB">
+								<img src="Logos/Huawei-Logo.png" alt=""></a>
+						</div>
+					</div>   
+			  </div>
+			  <div class="swiper-slide">
+				<div class="logos">
+					<div class="realme">
+						<a href="https://www.realme.com/mx/">
+							<img src="Logos/Realme-realme-_logo_box-RGB-01_with_out_back_ground.svg.png" alt=""></a>
+					</div>
+					
+				</div>
+			  </div>
+			  <div class="swiper-slide">
+				<div class="logos">
+					<div class="samsung">
+						<a href="https://www.samsung.com/mx/galaxy-ai/">
+							<img src="Logos/Samsung_Logo.svg.png" alt=""></a>
+					</div>
+				</div>
+			  </div>
+			  <div class="swiper-slide">
+				<div class="logos">
+					<div class="honor">
+						<a href="https://www.hihonor.com/mx/shop/honor-week/?gad_source=1&gclid=Cj0KCQjwk6SwBhDPARIsAJ59GwcCHRNW7jkispCIw-qAPtsHWZZq9Is6A4J7XlNCwRFroDLs9VKzvbMaAjLKEALw_wcB">
+							<img src="Logos/Huawei_Honor_Logo.svg.png" alt=""></a>
+					</div>
+				</div>
+			  </div>
+			</div>
+			<div class="swiper-button-next"></div>
+			<div class="swiper-button-prev"></div>
+		  </div>
+		</section>
+
+		<footer id="Footer" >
+			<div class="LogoFooter">
+				<a href="#"> <img src="Imagenes/Logo4.png" ></a>
+			</div>
+			<div class="PL-F">
+				<ul>
+					<li><a href="Conocenos.html">Conócenos</a></li>
+					<li><a href="Termininos Condiciones.html">Términos Y Condiciones</a></li>
+					<li><a href="Aviso de Privacidad.html">Aviso de Privacidad</a></li>
+					
+				</ul>
+			</div>
+			<div class="SL-F">
+				<ul>
+					<li><a href="Politica de Garantias.html">Política de Garantías</a></li>
+					<li><a href="Contacto.html">Contacto</a></li>
+					<li><a href="Metodo de Pago.html">Métodos de Pago</a></li>
+				</ul>
+			</div>
+
+		</footer>
+
+		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+		<script src="scriptNP.js"></script>
+		<script src="scriptImagenes.js"></script>
+		<script src="scriptMarcas.js"></script>
+		<script src="index.js"></script>
+		<script src="pagar.js"></script>
+		<script src="app.js"></script>
+		<script src="scriptProductos.js"></script>
+		<script src="buscar.js"></script>
+	</body>
+</html>
